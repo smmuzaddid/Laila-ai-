@@ -1,2 +1,24 @@
+# Environment variables — never commit these
 .env
+.env.local
+.env.production
+backend/.env
+frontend/.env
+
+# Dependencies
 node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/.vite/
+
+# Supabase local
+supabase/.temp/
+supabase/.branches/
+
+# OS / editor
+.DS_Store
+*.log
+.vscode/
